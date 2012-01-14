@@ -4,10 +4,10 @@ require 'open-uri'
 require 'pp'
 require 'url_escape'
 require 'rubygems' # edited on 08 01 2012
-require 'appscript' # edited on 08 01 2012
-include Appscript# edited on 08 01 2012
-require 'osax' # edited on 08 01 2012
-include OSAX# edited on 08 01 2012
+#require 'appscript' # edited on 08 01 2012
+#include Appscript# edited on 08 01 2012
+#require 'osax' # edited on 08 01 2012
+#include OSAX# edited on 08 01 2012
 
 
 class SiriProxy::Plugin::ThatWillDoTheTrick < SiriProxy::Plugin
