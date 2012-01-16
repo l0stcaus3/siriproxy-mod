@@ -306,7 +306,7 @@ he think's you are groovy,and really enjoys being with you"
 #    say "Balcony to sleep mode"
     
 #    request_completed #always complete your request! Otherwise the phone will "spin" at the user!
-  end
+#  end
   
   
   #demonstrate capturing data from the user (e.x. "Siri proxy number 15")
