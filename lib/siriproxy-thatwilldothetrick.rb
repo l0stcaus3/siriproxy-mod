@@ -65,7 +65,7 @@ class SiriProxy::Plugin::ThatWillDoTheTrick < SiriProxy::Plugin
  #   say "Sure Sir, we need Weed to workout out smokey way in that long hard work night! ...for my part, I smoke weed everyday"
     
    # request_completed #always complete your request! Otherwise the phone will "spin" at the user!
-  end
+#  end
   
   
   
