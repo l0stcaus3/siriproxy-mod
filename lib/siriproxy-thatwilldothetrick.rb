@@ -4,7 +4,7 @@ require 'open-uri'
 require 'pp'
 require 'url_escape'
 require 'rubygems' # edited on 08 01 2012
-require 'appscript'
+#require 'appscript'
 #require 'appscript' # edited on 08 01 2012
 #include Appscript# edited on 08 01 2012
 #require 'osax' # edited on 08 01 2012
@@ -154,13 +154,13 @@ he think's you are groovy,and really enjoys being with you"
   #########################################################
   # testing remote iphone cmds
   
-  listen_for / iPhone iTunes/i do
-    iPhoneiTunes = Appscript.app.by_url("eppc://SiriAdmin:siritest@192.168.1.108/iTunes")
-    iPhoneiTunes.play
-    say "They don't want the music, they don't know how to use it"
+#  listen_for / iPhone iTunes/i do
+#    iPhoneiTunes = Appscript.app.by_url("eppc://SiriAdmin:siritest@192.168.1.108/iTunes")
+#    iPhoneiTunes.play
+#   say "They don't want the music, they don't know how to use it"
     
-    request_completed
-  end
+#    request_completed
+#  end
   
   #########################################################
   
